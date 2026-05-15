@@ -1,223 +1,113 @@
-# Jorge Alvarez - Professional Portfolio Website
+# PortfolioSite_Alvarez
 
-A clean, professional portfolio website built with pure HTML, CSS, and JavaScript. This is a static website designed to represent my professional direction as an aspiring project manager focused on technical workflows and AI-assisted processes.
+## Live Site
 
-## Project Purpose
+**https://jdalvarez69.github.io/myPortfolio_jorgeAlvarez/**
 
-This portfolio website serves as my second serious web project. It demonstrates:
-- Information architecture and structured communication
-- Responsive web design without frameworks
-- Honest positioning and grounded professional identity
-- Integration of AI tools into a serious workflow
-- Understanding of project management fundamentals
+---
+
+## Project Overview
+
+This is my final professional portfolio website, built as a static site using only HTML, CSS, and vanilla JavaScript — no frameworks, no external libraries, no build tools.
+
+The goal is to present an honest, aspirational version of the professional direction I am building toward. I am not pretending to have years of experience. What the site does show is how I think about planning, communication, organization, and learning — and where I intend to go.
+
+This is my second serious web project.
+
+---
 
 ## Professional Direction
 
-I'm building toward project management at the intersection of business, technology, and AI-assisted workflows. This portfolio communicates:
-- My focus on technical communication, planning, and execution
-- How I integrate AI tools responsibly into professional workflows
-- My background as a Business and Information Systems student
-- Real, completed projects and honest positioning
-- Future concepts for professional development
+I chose project management as my focus because it aligns with the skills I am already developing and the kind of work I want to do: planning, documentation, communication, coordination, and helping complex projects move forward.
 
-## Site Sections
+I am a Business and Information Systems student. I am also pursuing a path through AFROTC with the goal of commissioning as an officer in the U.S. Space Force after college. I am interested in acquisition and space operations. Whether my career unfolds on the military side or the civilian side, project management is the throughline.
 
-### 1. Hero
-Brief introduction and call-to-action to explore my work and background.
+This site is aspirational — but everything on it is real or clearly labeled as a concept.
 
-### 2. Professional Direction
-Overview of what I'm building toward, my focus areas, and educational background.
+---
 
-### 3. Work & Projects
-- **Completed Projects:** Real work I've finished
-  - Cryptography Museum Website
-  - Professional Portfolio Website (this site)
-- **Concepts:** Future project ideas clearly labeled as concepts
-  - AI Study Planner
-  - Small Business Intake System
-  - Team Project Dashboard
+## Site Pages
 
-### 4. Skills & Tools
-Organized categories of skills I have and am developing:
-- Project Management
-- Technical Skills
-- Communication
-- AI Tools & Workflow
-- Business Skills
-- Currently Developing
+| Page | Description |
+|---|---|
+| **Home** (`index.html`) | Introduction, tagline, and navigation to all other sections |
+| **Direction** (`direction.html`) | My professional focus areas, AFROTC path, background, and skills I am developing |
+| **Work** (`work.html`) | Projects — completed, current, and concept — with honest status labels |
+| **Process** (`process.html`) | How I approach work: planning, AI collaboration, iteration, and documentation |
+| **Contact** (`contact.html`) | Email, LinkedIn, and GitHub |
 
-### 5. AI-Assisted Workflow
-Explanation of how I use AI tools like ChatGPT as collaborative partners:
-1. Plan & Define - Clear requirements and goals
-2. Collaborate - Iterative feedback and refinement
-3. Adapt & Improve - Make AI suggestions my own
-4. Verify & Own - Take full responsibility for output
+---
 
-### 6. Contact
-Direct contact information and links to social profiles.
+## Projects Included
 
-## Tech Stack
+**Cryptography Museum Website** — *Completed*
+A multi-page website for a conceptual museum dedicated to the history of cryptography. This was my first serious web project. Live site is linked from the Work page.
 
-- **HTML5** - Semantic markup
-- **CSS3** - Vanilla CSS with CSS variables, grid, flexbox, and responsive design
-- **JavaScript** - Vanilla JS for interactivity (no libraries)
+**Professional Portfolio Website** — *Current*
+This site. Built to present my professional direction and practice information architecture, responsive design, and clear communication.
 
-**No frameworks, preprocessors, or external dependencies.**
+**Team Project Dashboard** — *Concept*
+A wireframe-level concept for a dashboard designed to help small teams track tasks, deadlines, and project status. Not built yet — included to show the direction I am thinking in.
 
-## Design Approach
+---
 
-### Aesthetic
-- Clean, professional, calm, and modern
-- Strong typography with readable text
-- Good spacing and visual hierarchy
-- Subtle cards with minimal borders
-- Responsive mobile-first design
+## AI Workflow
 
-### Avoid
-- Neon cyberpunk styling
-- Clutter or visual noise
-- Fake hype or inflated language
-- Generic corporate design patterns
+I used AI tools — primarily ChatGPT and GitHub Copilot — throughout this project. I want to be clear about what that looked like in practice:
 
-## Content Principles
+- **Research support** — I used ChatGPT to explore what project management actually involves, what skills matter, and how to position myself honestly as a student.
+- **Planning** — I worked through the site structure and content outline with AI assistance before writing anything.
+- **Content revision** — I wrote drafts and used AI to critique them, then revised based on that feedback. The final words are mine.
+- **Code collaboration** — I used GitHub Copilot inside VS Code to help write and refine HTML, CSS, and JavaScript. I reviewed every suggestion and made corrections where needed.
+- **Critique and iteration** — I asked AI to point out where the site sounded inflated, generic, or dishonest, and I revised accordingly.
+- **Visual planning** — I described layout ideas in conversation and used that as a starting point for building the design.
 
-### Be Honest
-- Only mention real, completed projects
-- Don't invent internships, jobs, certifications, or false experience
-- Be student-appropriate in tone and language
+I made all final decisions about content, structure, tone, and code. AI was a collaborator, not a replacement for judgment.
 
-### Use Grounded Language
-- "I am building toward..." instead of "I specialize in..."
-- "I am developing..." instead of "I have mastered..."
-- "This project helped me practice..." instead of "I transform companies..."
+---
 
-### Clear Labeling
-- Future concepts are clearly marked as "Concept"
-- Status is transparent (Completed, Current, Concept)
+## Tools Used
 
-## File Structure
+- HTML5
+- CSS3 (vanilla, no preprocessors)
+- JavaScript (vanilla, no libraries)
+- VS Code
+- GitHub
+- GitHub Pages
+- ChatGPT
+- GitHub Copilot
 
-```
-PortfolioSite_Alvarez/
-├── .github/
-│   └── copilot-instructions.md    # Project-specific Copilot guidelines
-├── index.html                      # Main HTML file
-├── styles.css                      # All styling
-├── script.js                       # JavaScript functionality
-└── README.md                       # This file
-```
+---
 
-## How to Preview Locally
+## Assets and Images
 
-### Option 1: Simple HTTP Server (Python)
-If you have Python installed:
+The site uses the following visual assets:
 
-```bash
-cd PortfolioSite_Alvarez
+- **Profile image** — `assets/images/profile.jpg`
+- **JA monogram** — `assets/images/brand/ja-monogram.svg` — used as favicon and nav logo
+- **Cryptography Museum screenshot** — `assets/images/projects/cryptography-museum.png`
+- **Portfolio site screenshot** — `assets/images/projects/portfolio-site.png`
+- **Team Dashboard concept image** — `assets/images/projects/team-dashboard-concept.png`
+- **Career path diagram** — `assets/images/career-path.svg`
+- **Workflow map** — `assets/images/workflow-map.svg`
 
-# Python 3
-python -m http.server 8000
+---
 
-# Python 2
-python -m SimpleHTTPServer 8000
-```
+## How to View Locally
 
-Then open `http://localhost:8000` in your browser.
+1. Clone or download this repository.
+2. Open `index.html` in any modern browser.
+3. Or, if you have the VS Code Live Server extension, right-click `index.html` and select **Open with Live Server**.
 
-### Option 2: Using Node.js
-If you have Node.js with `http-server` installed:
+No build step or package installation required.
 
-```bash
-cd PortfolioSite_Alvarez
-npx http-server
-```
+---
 
-Then open the provided local URL in your browser.
+## Contact
 
-### Option 3: Direct File Access
-Simply open `index.html` directly in your browser by dragging the file or using File > Open.
-
-*Note: Some features may work better with a local server due to browser security restrictions.*
-
-### Option 4: VS Code Live Server
-If you have the Live Server extension in VS Code:
-1. Right-click `index.html`
-2. Select "Open with Live Server"
-
-## Development Notes
-
-### CSS Architecture
-- Uses CSS custom properties (variables) for consistent theming
-- Mobile-first responsive design
-- Breakpoints at 768px and 480px
-- No CSS preprocessor needed
-
-### JavaScript Features
-- Smooth scroll behavior (CSS and JS)
-- Intersection Observer for fade-in animations on scroll
-- Active navigation link highlighting
-- Navbar shadow on scroll
-- Utility functions for future expansion
-
-### Responsive Design
-- Adapts smoothly from mobile (320px) to desktop (1200px+)
-- Touch-friendly navigation and buttons
-- Flexible grid layouts with `auto-fit` and `minmax()`
-- Adjusted typography sizes for smaller screens
-
-## Customization
-
-### Update Contact Information
-In `contact.html`, find the contact section and update:
-- Email link: `mailto:jda69@njit.edu`
-- LinkedIn: `https://www.linkedin.com/in/jorge-alvarez-75b151226/`
-- GitHub: `https://github.com/jdalvarez69`
-
-### Change Colors
-Edit CSS variables in `styles.css` `:root` section to customize the color scheme.
-
-### Add Content
-Follow the existing HTML structure and maintain the design consistency by using existing card and section classes.
-
-## Copilot Instructions
-
-This project includes `.github/copilot-instructions.md` which provides guidelines for maintaining the site's voice, content rules, and design principles. These instructions help preserve the authentic, grounded nature of the portfolio when making future edits.
-
-## Future Enhancements
-
-Potential additions (when ready):
-- Blog section for articles on project management and AI workflows
-- Case study details for completed projects
-- Live contact form with email integration
-- Dark mode toggle
-- Project filtering by category
-- Download resume/CV
-
-## Learning Goals Met by This Project
-
-1. **Information Architecture** - Structuring complex professional information clearly
-2. **Responsive Web Design** - Mobile-first approach without frameworks
-3. **Semantic HTML** - Proper use of HTML5 elements
-4. **CSS Mastery** - Layout, typography, animations, and responsive techniques
-5. **Vanilla JavaScript** - Interactivity without dependencies
-6. **AI Collaboration** - Using ChatGPT responsibly in workflow
-7. **Professional Communication** - Honest positioning and clear messaging
-
-## Browser Support
-
-Works on all modern browsers:
-- Chrome/Edge (latest)
-- Firefox (latest)
-- Safari (latest)
-- Mobile browsers (iOS Safari, Chrome Mobile)
-
-## Performance
-
-- Fully optimized for performance
-- No external requests required (except fonts from system)
-- Fast load times
-- Optimized CSS and JavaScript
-- No blocking resources
+- **Email:** jda69@njit.edu
+- **LinkedIn:** https://www.linkedin.com/in/jorge-alvarez-75b151226/
+- **GitHub:** https://github.com/jdalvarez69
 
 ## License
 
