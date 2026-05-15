@@ -1,34 +1,33 @@
-const navbar = document.querySelector('.navbar');
-const sections = [...document.querySelectorAll('section')];
-const navLinks = [...document.querySelectorAll('.nav-menu a')];
+/* =============================================
+   SHARED SCRIPT — Jorge Alvarez Portfolio
+   ============================================= */
 
-function updateHeaderState() {
-    if (!navbar) return;
-    navbar.style.borderBottomColor = window.scrollY > 12 ? '#c8c4bb' : '';
-}
+(function () {
+    'use strict';
 
-function updateActiveLink() {
-    if (!sections.length || !navLinks.length) return;
-    let current = sections[0].id;
+    // ----- Navbar scroll state -----
+    const navbar = document.querySelector('.navbar');
+    if (navbar) {
+        const onScroll = () => {
+            navbar.classList.toggle('scrolled', window.scrollY > 16);
+        };
+        window.addEventListener('scroll', onScroll, { passive: true });
+        onScroll();
+    }
 
-    sections.forEach((section) => {
-        if (window.scrollY >= section.offsetTop - 130) {
-            current = section.id;
-        }
-    });
+    // ----- Active nav link by current page filename -----
+    const navLinks = [...document.querySelectorAll('.nav-menu a')];
+    if (navLinks.length) {
+        const path = window.location.pathname;
+        const file = path.split('/').pop() || 'index.html';
 
-    navLinks.forEach((link) => {
-        const isActive = link.getAttribute('href') === `#${current}`;
-        link.classList.toggle('active', isActive);
-    });
-}
-
-window.addEventListener('scroll', () => {
-    updateHeaderState();
-    updateActiveLink();
-});
-
-window.addEventListener('load', () => {
-    updateHeaderState();
-    updateActiveLink();
-});
+        navLinks.forEach(link => {
+            const href = link.getAttribute('href');
+            const linkFile = href.split('/').pop();
+            const isHome = (linkFile === 'index.html' || linkFile === '') &&
+                           (file === 'index.html' || file === '');
+            const isMatch = isHome || linkFile === file;
+            link.classList.toggle('active', isMatch);
+        });
+    }
+})();
