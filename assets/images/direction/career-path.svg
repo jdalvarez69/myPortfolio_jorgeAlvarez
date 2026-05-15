@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 200">
+  <!-- Background -->
+  <rect width="720" height="200" fill="#faf9f4"/>
+
+  <!-- Title label -->
+  <text x="360" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="700" fill="#525d6b" letter-spacing="2">INTENDED CAREER PATH</text>
+
+  <!-- Dashed connecting line through centers (y=110) -->
+  <line x1="90" y1="110" x2="582" y2="110" stroke="#d5d2c9" stroke-width="1" stroke-dasharray="4,3"/>
+
+  <!-- NODE 1: Current — BIS Student (solid accent border) -->
+  <rect x="20" y="56" width="140" height="108" rx="2" fill="#faf9f4" stroke="#2b3d55" stroke-width="1.5"/>
+  <rect x="21" y="57" width="138" height="28" fill="#e5ecf5"/>
+  <rect x="21" y="84" width="138" height="1" fill="#c4cfd9"/>
+  <text x="90" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="8.5" font-weight="700" fill="#2b3d55" letter-spacing="1.2">CURRENT</text>
+  <text x="90" y="104" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" font-weight="700" fill="#16181c">BIS Student</text>
+  <text x="90" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="8.5" fill="#525d6b">Business + Info Systems</text>
+  <text x="90" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#525d6b">AFROTC</text>
+  <text x="90" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="7.5" fill="#b0aea6">In progress</text>
+
+  <!-- Arrow 1 -->
+  <line x1="162" y1="110" x2="176" y2="110" stroke="#d5d2c9" stroke-width="1.5"/>
+  <polygon points="176,106 184,110 176,114" fill="#d5d2c9"/>
+
+  <!-- NODE 2: Goal — Space Force commission (dashed border) -->
+  <rect x="184" y="56" width="140" height="108" rx="2" fill="#faf9f4" stroke="#d5d2c9" stroke-width="1" stroke-dasharray="4,3"/>
+  <rect x="185" y="57" width="138" height="28" fill="#edeae0"/>
+  <rect x="185" y="84" width="138" height="1" fill="#d5d2c9"/>
+  <text x="254" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="8.5" font-weight="700" fill="#525d6b" letter-spacing="1.2">GOAL</text>
+  <text x="254" y="104" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" font-weight="700" fill="#16181c">Space Force</text>
+  <text x="254" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="8.5" fill="#525d6b">Commission via AFROTC</text>
+  <text x="254" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#525d6b">After graduation</text>
+  <text x="254" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="7.5" fill="#b0aea6">Not yet completed</text>
+
+  <!-- Arrow 2 -->
+  <line x1="326" y1="110" x2="340" y2="110" stroke="#d5d2c9" stroke-width="1.5"/>
+  <polygon points="340,106 348,110 340,114" fill="#d5d2c9"/>
+
+  <!-- NODE 3: Intended — Acquisition / Space Ops (dashed border) -->
+  <rect x="348" y="56" width="140" height="108" rx="2" fill="#faf9f4" stroke="#d5d2c9" stroke-width="1" stroke-dasharray="4,3"/>
+  <rect x="349" y="57" width="138" height="28" fill="#edeae0"/>
+  <rect x="349" y="84" width="138" height="1" fill="#d5d2c9"/>
+  <text x="418" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="8.5" font-weight="700" fill="#525d6b" letter-spacing="1.2">INTENDED</text>
+  <text x="418" y="104" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" font-weight="700" fill="#16181c">Acquisition /</text>
+  <text x="418" y="118" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" font-weight="700" fill="#16181c">Space Ops</text>
+  <text x="418" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="8.5" fill="#525d6b">Preferred focus area</text>
+  <text x="418" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="7.5" fill="#b0aea6">Not yet completed</text>
+
+  <!-- Arrow 3 -->
+  <line x1="490" y1="110" x2="504" y2="110" stroke="#d5d2c9" stroke-width="1.5"/>
+  <polygon points="504,106 512,110 504,114" fill="#d5d2c9"/>
+
+  <!-- NODE 4: Long-term — Civilian Project Management (dashed border) -->
+  <rect x="512" y="56" width="140" height="108" rx="2" fill="#faf9f4" stroke="#d5d2c9" stroke-width="1" stroke-dasharray="4,3"/>
+  <rect x="513" y="57" width="138" height="28" fill="#edeae0"/>
+  <rect x="513" y="84" width="138" height="1" fill="#d5d2c9"/>
+  <text x="582" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="8.5" font-weight="700" fill="#525d6b" letter-spacing="1.2">LONG-TERM</text>
+  <text x="582" y="104" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" font-weight="700" fill="#16181c">Civilian Project</text>
+  <text x="582" y="118" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" font-weight="700" fill="#16181c">Management</text>
+  <text x="582" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="8.5" fill="#525d6b">Technical / AI workflows</text>
+  <text x="582" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="7.5" fill="#b0aea6">After service</text>
+
+  <!-- Disclaimer -->
+  <text x="360" y="188" text-anchor="middle" font-family="Arial, sans-serif" font-size="7.5" fill="#c8c6be">Goal as of 2025 — nodes 2–4 are intended, not completed.</text>
+</svg>

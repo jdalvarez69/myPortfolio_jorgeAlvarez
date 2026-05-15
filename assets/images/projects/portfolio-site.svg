@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340">
+  <!-- Background -->
+  <rect width="600" height="340" fill="#faf9f4"/>
+
+  <!-- Navbar -->
+  <rect width="600" height="38" fill="#f4f1e8"/>
+  <rect x="0" y="37" width="600" height="1" fill="#d5d2c9"/>
+  <!-- Brand block "JA" -->
+  <rect x="20" y="13" width="20" height="12" rx="1" fill="#2b3d55" opacity="0.9"/>
+  <!-- Nav links -->
+  <rect x="378" y="16" width="30" height="6" rx="1" fill="#d5d2c9"/>
+  <rect x="416" y="16" width="30" height="6" rx="1" fill="#d5d2c9"/>
+  <rect x="454" y="16" width="38" height="6" rx="1" fill="#d5d2c9"/>
+  <rect x="500" y="16" width="30" height="6" rx="1" fill="#d5d2c9"/>
+  <rect x="538" y="16" width="42" height="6" rx="1" fill="#d5d2c9"/>
+
+  <!-- Hero section -->
+  <!-- section-label bar -->
+  <rect x="20" y="54" width="48" height="5" rx="1" fill="#d5d2c9"/>
+  <!-- h1 large block -->
+  <rect x="20" y="66" width="224" height="18" rx="1" fill="#16181c" opacity="0.82"/>
+  <!-- hero-role line -->
+  <rect x="20" y="92" width="148" height="9" rx="1" fill="#4a6280" opacity="0.65"/>
+  <!-- body text lines -->
+  <rect x="20" y="110" width="310" height="5" rx="1" fill="#d5d2c9"/>
+  <rect x="20" y="120" width="274" height="5" rx="1" fill="#d5d2c9"/>
+  <rect x="20" y="130" width="240" height="5" rx="1" fill="#d5d2c9"/>
+  <!-- CTA buttons -->
+  <rect x="20" y="145" width="84" height="22" rx="1" fill="#2b3d55"/>
+  <rect x="112" y="145" width="84" height="22" rx="1" fill="none" stroke="#2b3d55" stroke-width="1"/>
+
+  <!-- Three nav cards row -->
+  <rect x="20" y="186" width="172" height="74" rx="1" fill="none" stroke="#d5d2c9" stroke-width="1"/>
+  <rect x="208" y="186" width="172" height="74" rx="1" fill="none" stroke="#d5d2c9" stroke-width="1"/>
+  <rect x="396" y="186" width="172" height="74" rx="1" fill="none" stroke="#c4cfd9" stroke-width="1.5"/>
+
+  <!-- Card 1 content -->
+  <rect x="32" y="198" width="32" height="5" rx="1" fill="#c4cfd9"/>
+  <rect x="32" y="210" width="76" height="8" rx="1" fill="#16181c" opacity="0.58"/>
+  <rect x="32" y="224" width="124" height="4" rx="1" fill="#d5d2c9"/>
+  <rect x="32" y="232" width="104" height="4" rx="1" fill="#d5d2c9"/>
+  <rect x="32" y="244" width="56" height="8" rx="1" fill="#edeae0"/>
+
+  <!-- Card 2 content -->
+  <rect x="220" y="198" width="32" height="5" rx="1" fill="#c4cfd9"/>
+  <rect x="220" y="210" width="54" height="8" rx="1" fill="#16181c" opacity="0.58"/>
+  <rect x="220" y="224" width="124" height="4" rx="1" fill="#d5d2c9"/>
+  <rect x="220" y="232" width="104" height="4" rx="1" fill="#d5d2c9"/>
+  <rect x="220" y="244" width="56" height="8" rx="1" fill="#edeae0"/>
+
+  <!-- Card 3 content -->
+  <rect x="408" y="198" width="32" height="5" rx="1" fill="#c4cfd9"/>
+  <rect x="408" y="210" width="64" height="8" rx="1" fill="#16181c" opacity="0.58"/>
+  <rect x="408" y="224" width="124" height="4" rx="1" fill="#d5d2c9"/>
+  <rect x="408" y="232" width="104" height="4" rx="1" fill="#d5d2c9"/>
+  <rect x="408" y="244" width="56" height="8" rx="1" fill="#edeae0"/>
+
+  <!-- Footer rule + content -->
+  <rect x="0" y="302" width="600" height="1" fill="#d5d2c9"/>
+  <rect x="20" y="316" width="84" height="5" rx="1" fill="#d5d2c9"/>
+  <rect x="416" y="316" width="36" height="5" rx="1" fill="#d5d2c9"/>
+  <rect x="460" y="316" width="36" height="5" rx="1" fill="#d5d2c9"/>
+  <rect x="504" y="316" width="36" height="5" rx="1" fill="#d5d2c9"/>
+  <rect x="548" y="316" width="32" height="5" rx="1" fill="#d5d2c9"/>
+</svg>

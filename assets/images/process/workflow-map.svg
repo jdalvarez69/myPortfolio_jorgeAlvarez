@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 130">
+  <!-- Background -->
+  <rect width="700" height="130" fill="#faf9f4"/>
+
+  <!-- Step 1: Research -->
+  <rect x="16" y="16" width="108" height="90" rx="2" fill="#faf9f4" stroke="#d5d2c9" stroke-width="1"/>
+  <rect x="17" y="17" width="106" height="24" fill="#edeae0"/>
+  <rect x="17" y="40" width="106" height="1" fill="#d5d2c9"/>
+  <text x="70" y="33" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#525d6b" letter-spacing="1.5">01</text>
+  <text x="70" y="62" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#16181c">Research</text>
+  <text x="70" y="79" text-anchor="middle" font-family="Arial, sans-serif" font-size="8.5" fill="#525d6b">Understand</text>
+  <text x="70" y="96" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#d5d2c9">the problem</text>
+
+  <!-- Arrow 1 → 2 -->
+  <line x1="124" y1="61" x2="146" y2="61" stroke="#c4cfd9" stroke-width="1.5"/>
+  <polygon points="146,57 154,61 146,65" fill="#c4cfd9"/>
+
+  <!-- Step 2: Plan -->
+  <rect x="154" y="16" width="108" height="90" rx="2" fill="#faf9f4" stroke="#d5d2c9" stroke-width="1"/>
+  <rect x="155" y="17" width="106" height="24" fill="#edeae0"/>
+  <rect x="155" y="40" width="106" height="1" fill="#d5d2c9"/>
+  <text x="208" y="33" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#525d6b" letter-spacing="1.5">02</text>
+  <text x="208" y="62" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#16181c">Plan</text>
+  <text x="208" y="79" text-anchor="middle" font-family="Arial, sans-serif" font-size="8.5" fill="#525d6b">Define scope</text>
+  <text x="208" y="96" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#d5d2c9">sequence tasks</text>
+
+  <!-- Arrow 2 → 3 -->
+  <line x1="262" y1="61" x2="284" y2="61" stroke="#c4cfd9" stroke-width="1.5"/>
+  <polygon points="284,57 292,61 284,65" fill="#c4cfd9"/>
+
+  <!-- Step 3: Build (active — accent border) -->
+  <rect x="292" y="16" width="108" height="90" rx="2" fill="#faf9f4" stroke="#2b3d55" stroke-width="1.5"/>
+  <rect x="293" y="17" width="106" height="24" fill="#e5ecf5"/>
+  <rect x="293" y="40" width="106" height="1" fill="#c4cfd9"/>
+  <text x="346" y="33" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#2b3d55" letter-spacing="1.5">03</text>
+  <text x="346" y="62" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#16181c">Build</text>
+  <text x="346" y="79" text-anchor="middle" font-family="Arial, sans-serif" font-size="8.5" fill="#4a6280">Execute</text>
+  <text x="346" y="96" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#4a6280">step by step</text>
+
+  <!-- Arrow 3 → 4 -->
+  <line x1="400" y1="61" x2="422" y2="61" stroke="#c4cfd9" stroke-width="1.5"/>
+  <polygon points="422,57 430,61 422,65" fill="#c4cfd9"/>
+
+  <!-- Step 4: Review -->
+  <rect x="430" y="16" width="108" height="90" rx="2" fill="#faf9f4" stroke="#d5d2c9" stroke-width="1"/>
+  <rect x="431" y="17" width="106" height="24" fill="#edeae0"/>
+  <rect x="431" y="40" width="106" height="1" fill="#d5d2c9"/>
+  <text x="484" y="33" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#525d6b" letter-spacing="1.5">04</text>
+  <text x="484" y="62" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#16181c">Review</text>
+  <text x="484" y="79" text-anchor="middle" font-family="Arial, sans-serif" font-size="8.5" fill="#525d6b">Validate</text>
+  <text x="484" y="96" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#d5d2c9">check quality</text>
+
+  <!-- Arrow 4 → 5 -->
+  <line x1="538" y1="61" x2="560" y2="61" stroke="#c4cfd9" stroke-width="1.5"/>
+  <polygon points="560,57 568,61 560,65" fill="#c4cfd9"/>
+
+  <!-- Step 5: Ship (green — complete) -->
+  <rect x="568" y="16" width="108" height="90" rx="2" fill="#faf9f4" stroke="#d5d2c9" stroke-width="1"/>
+  <rect x="569" y="17" width="106" height="24" fill="#e5f0e5"/>
+  <rect x="569" y="40" width="106" height="1" fill="#d5d2c9"/>
+  <text x="622" y="33" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#2f6030" letter-spacing="1.5">05</text>
+  <text x="622" y="62" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#16181c">Ship</text>
+  <text x="622" y="79" text-anchor="middle" font-family="Arial, sans-serif" font-size="8.5" fill="#2f6030">Deliver</text>
+  <text x="622" y="96" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#2f6030">and document</text>
+</svg>
