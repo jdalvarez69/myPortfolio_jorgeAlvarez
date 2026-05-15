@@ -170,6 +170,7 @@ If you have the Live Server extension in VS Code:
 ### Update Contact Information
 In `contact.html`, find the contact section and update:
 - Email link: `mailto:jda69@njit.edu`
+- LinkedIn: `https://www.linkedin.com/in/jorge-alvarez-75b151226/`
 - GitHub: `https://github.com/jdalvarez69`
 
 ### Change Colors
