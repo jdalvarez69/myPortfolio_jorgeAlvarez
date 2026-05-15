@@ -10,8 +10,8 @@ This file documents all image slots, which files exist, and which are designed S
 |------|------|--------|
 | `brand/profile.jpg` | Real photo | ✅ Exists |
 | `projects/cryptography-museum.png` | Real screenshot | ✅ Exists |
-| `projects/portfolio-site.svg` | Designed SVG wireframe | ✅ Created |
-| `projects/team-dashboard-concept.svg` | Designed SVG schematic | ✅ Created |
+| `projects/portfolio-site.png` | Real screenshot | ✅ Exists |
+| `projects/team-dashboard-concept.png` | Concept visual | ✅ Exists |
 | `process/workflow-map.svg` | Designed SVG diagram | ✅ Created |
 | `direction/career-path.svg` | Designed SVG path diagram | ✅ Created |
 
@@ -22,8 +22,8 @@ This file documents all image slots, which files exist, and which are designed S
 | File | Used in | Notes |
 |------|---------|-------|
 | `projects/cryptography-museum.png` | work.html — Cryptography Museum card | Real screenshot. 16:9 crop. |
-| `projects/portfolio-site.svg` | work.html — Portfolio Website card | Designed wireframe schematic of the portfolio layout. Can be replaced with a real screenshot later. |
-| `projects/team-dashboard-concept.svg` | work.html — Team Dashboard card | Designed schematic showing kanban columns, status badges, timeline strip, and risk marker. |
+| `projects/portfolio-site.png` | work.html — Portfolio Website card | Real screenshot of this portfolio site. |
+| `projects/team-dashboard-concept.png` | work.html — Team Dashboard card | Concept visual showing the dashboard idea. Status: Concept — not a working app. |
 
 ---
 
