@@ -168,10 +168,9 @@ If you have the Live Server extension in VS Code:
 ## Customization
 
 ### Update Contact Information
-In `index.html`, find the contact section and update:
-- Email link: `mailto:your-email@example.com`
-- LinkedIn: `https://linkedin.com/in/your-profile`
-- GitHub: `https://github.com/your-profile`
+In `contact.html`, find the contact section and update:
+- Email link: `mailto:jda69@njit.edu`
+- GitHub: `https://github.com/jdalvarez69`
 
 ### Change Colors
 Edit CSS variables in `styles.css` `:root` section to customize the color scheme.
